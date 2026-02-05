@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "total_tests": 6,
+    "passed_tests": 6,
+    "success_rate": 100.0,
+    "timestamp": "2026-02-05T17:49:35.106296"
+  },
+  "detailed_results": [
+    {
+      "test_name": "API Root Endpoint",
+      "success": true,
+      "details": "Status: 200, Response: {'message': 'Diabetes Prediction API'}",
+      "timestamp": "2026-02-05T17:49:34.814799"
+    },
+    {
+      "test_name": "Model Metrics Endpoint",
+      "success": true,
+      "details": "Status: 200, Models: ['logistic_regression', 'random_forest'], LR Accuracy: 0.7143, RF Accuracy: 0.7597",
+      "timestamp": "2026-02-05T17:49:34.854991"
+    },
+    {
+      "test_name": "Prediction Valid Input",
+      "success": true,
+      "details": "Status: 200, LR: Diabetic, RF: Diabetic",
+      "timestamp": "2026-02-05T17:49:34.902304"
+    },
+    {
+      "test_name": "Prediction Edge Case - All zeros",
+      "success": true,
+      "details": "Status: 200, Case: All zeros",
+      "timestamp": "2026-02-05T17:49:34.946450"
+    },
+    {
+      "test_name": "Prediction Edge Case - High values",
+      "success": true,
+      "details": "Status: 200, Case: High values",
+      "timestamp": "2026-02-05T17:49:35.029884"
+    },
+    {
+      "test_name": "Prediction Invalid Input",
+      "success": true,
+      "details": "Status: 422 (Expected 422 for validation error)",
+      "timestamp": "2026-02-05T17:49:35.105389"
+    }
+  ]
+}
