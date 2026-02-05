@@ -365,8 +365,7 @@ Random Forest is the recommended model for production use due to:
 ## 9. Results and Screenshots
 
 ### Screenshot 1: Initial Page with Model Metrics
-[Insert screenshot showing the main page with model performance metrics displayed at the top]
-
+![Home Screen](https://github.com/Nullkernel/diabetes-prediction-ml/blob/main/images/1.jpeg)
 **Features Visible**:
 - Model Performance Metrics card
 - Logistic Regression metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC)
@@ -374,8 +373,7 @@ Random Forest is the recommended model for production use due to:
 - Empty prediction form
 
 ### Screenshot 2: Form Filled with Sample Data
-[Insert screenshot showing the form filled with patient data]
-
+![Sample Data](https://github.com/Nullkernel/diabetes-prediction-ml/blob/main/images/2.jpeg)
 **Sample Data Used**:
 - Pregnancies: 6
 - Glucose: 148 mg/dL
@@ -387,8 +385,7 @@ Random Forest is the recommended model for production use due to:
 - Age: 50 years
 
 ### Screenshot 3: Prediction Results
-[Insert screenshot showing prediction results from both models]
-
+![Results](https://github.com/Nullkernel/diabetes-prediction-ml/blob/main/images/2.jpeg)
 **Results**:
 
 **Logistic Regression**:
