@@ -55,11 +55,11 @@ This project implements a full-stack web application for diabetes prediction usi
          │
          │
     ┌────┴────┐
-    │   ML      │
-    │  Models   │
-    │          │
-    │  - LR     │
-    │  - RF     │
+    │   ML    │
+    │  Models │
+    │         │
+    │  - LR   │
+    │  - RF   │
     └─────────┘
 ```
 
