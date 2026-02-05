@@ -458,7 +458,7 @@ Potential improvements for the project:
 
 #### Step 1: Clone Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Nullkernel/diabetes-prediction-ml.git
 cd <project-directory>
 ```
 
